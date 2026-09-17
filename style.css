@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+
+    background-color: black;
+
+    font-family: Arial, sans-serif;
+
+    color: white;
+}
+
+header {
+    background-color: #0066ff;
+
+    padding: 40px;
+
+    text-align: center;
+}
+
+header h1 {
+
+    font-size: 45px;
+
+    margin: 0;
+}
+
+header p {
+    font-size: 20px;
+
+    margin: 10px 0 0;
+}
+
+nav {
+    background-color: #ffffff;
+
+    padding: 20px;
+
+    text-align: center;
+
+    position: sticky;
+
+    top: 0;
+}
+
+nav a {
+    color: #000000;
+
+    text-decoration: none;
+
+    margin:  15px;
+
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0066ff;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+section h2 {
+    color: #0066ff;
+
+    border-bottom: 2px solid #0066ff;
+
+    padding-bottom: 10px;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.jogadores {
+
+    display: flex;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+}
+
+.card {
+    background-color: #0066ff;
+
+    width: 250px;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+
+    border-radius: 10px;
+
+}
+
+.card:hover {
+    background-color: #0066ff;
+    transform: scale(1.05);
+}
+
+.botao {
+    background-color: #0066ff;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.botao:hover {
+    background-color: #0052cc;
+}
+
+footer {
+    background-color: #0267ff;
+
+    padding: 30px;
+
+    text-align: center;
+
+    margin-top: 50px;
+}
