@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+
+        <h1>Formulário Grêmio</h1>
+        <p> Um site para falar sobre o Grêmio</p>
+    </header>
+
+    <nav>
+
+        <a href="index.html">inicio</a>
+
+        <a href="video.html">video</a>
+
+        <a href="audio.html">audio</a>
+
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Formulario de contato</h2>
+            <p>Preencha o formulário abaixo para entrar em contato conosco:</p>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="email">Email:</label>
+
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="nascimento">Data de Nascimento:</label>
+
+                <input type="date" id="nascimento" name="nascimento" required><br><br>
+
+                <label for="jogadores">Jogador favorito:</label><br>
+
+                <select id="jogadores" name="jogadores" required>
+                    <option value="">Selecione um jogador</option>
+                    <option value="ronaldinho">Ronaldinho Gaúcho</option>
+                    <option value="everton">Everton Cebolinha</option>
+                    <option value="lucas">Lucas Leiva</option>
+                    <option value="diego">Diego Tardelli</option>
+
+                <textarea id="mensagem" name="mensagem" rows="5" cols="40" required></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+
+                <fieldset>
+                    <legend>Convocaria qual jogador?</legend
+                        
+                        label class="jogador">
+                            <input type="checkbox" name="jogador" value="ronaldinho"> Ronaldinho Gaúcho
+                        </label>
+                        <label class="jogador">
+                            <input type="checkbox" name="jogador" value="everton"> Everton Cebolinha
+                        </label>
+                        <label class="jogador">
+                            <input type="checkbox" name="jogador" value="lucas"> Lucas Leiva
+                        </label>
+                        <label class="jogador">
+                            <input type="checkbox" name="jogador" value="diego"> Diego Tardelli 
+                        </label>
+
+                </fieldset>
+
+
+            </form>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
